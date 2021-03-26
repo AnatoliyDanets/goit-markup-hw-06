@@ -709,10 +709,10 @@ img {
 .send {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 29px;
 }
-.icon-send {
-  margin-left: 10px;
-}
+
 /* main портфолио */
 .filter {
   display: flex;

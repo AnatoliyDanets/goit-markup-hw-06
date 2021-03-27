@@ -255,13 +255,14 @@ img {
   cursor: pointer;
 }
 .close-modal {
-  fill: #000000;
-  border-radius: 50%;
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-modal:hover,
-.close-modal:focus {
-  fill: var(--accent-text-color);
+.modal-button:hover .close-modal {
+  fill: var(--accent-bg-color);
+}
+.modal-button:focus {
+  color: var(--accent-bg-color);
 }
 .modal-title {
   font-style: normal;
